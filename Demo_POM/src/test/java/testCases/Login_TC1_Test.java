@@ -1,13 +1,15 @@
 package testCases;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.Dashboard;
 import pages.HomePage;
 import pages.LoginPage;
 
-public class Login_TC1 {
+public class Login_TC1_Test {
 	
+	@Test
 	public static void main(String[] args) throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\Testing Course\\Automation Testing\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
